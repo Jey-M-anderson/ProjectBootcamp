@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+header{
+    display: inline;
+    margin: auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+h2{
+    border: 2px solid black;
+    text-align: center;
+    width: ;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    margin: 1px;
+}
+div{
+    border: 2px solid black;
+    width: 2fr;
+    font-size: 20px;
+    display: flex;
+}
