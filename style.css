@@ -11,26 +11,26 @@ header{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+   
 }
 .image{
-    background-image: ;
     background: linear-gradient(
         rgba(0, 0, 0, 0.596),
         rgba(0, 0, 0, 0.7)),
         url(./image/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin-bottom: 5rem;
     
 }
 nav{
     display: flex;
     justify-content: space-around;
 }
-img{
+#idLogo{
     width: 10rem;;
 }
-div{
+#idBascule{
     width: 44rem;
     display: flex;
     justify-content: space-around;
@@ -56,20 +56,20 @@ button{
     height: 2rem;
     color: white;
 }
-section{
+#soule{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: black solid 2px;
     margin-top: 5rem;
     flex-wrap: wrap;
+    margin-bottom: 17rem;
 }
 #colorful{
     font-size: 2rem;
     margin-top: 5rem;
 }
-#tiret{
+.tiret{
     color: red;
     width: 6rem;
     border: 2px solid red;
@@ -78,4 +78,68 @@ section{
 #wonderful{
     font-size: 5rem;
     margin: 1px;
+}
+main{
+    background-color: darkgrey;
+    margin-top: -5rem;
+}
+#id2Soule{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo2{
+    height: 72px;
+    width: 94px;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+#CaSoule{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 186px;
+}
+.para2{
+    font-size: 16px;
+   
+}
+#Bmc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 141px;
+}
+#GigaChad{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.imageBg{
+    height: 296px;
+    width: 475px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    border-radius: 1%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
 }
