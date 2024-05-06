@@ -1,29 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
 }
 header{
-    display: inline;
-    margin: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.image{
+    background-image: ;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.596),
+        rgba(0, 0, 0, 0.7)),
+        url(./image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
 nav{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    border: 2px solid black;
 }
-h2{
-    border: 2px solid black;
-    text-align: center;
-    width: ;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-p{
-    margin: 1px;
+img{
+    width: 10rem;;
 }
 div{
-    border: 2px solid black;
-    width: 2fr;
-    font-size: 20px;
+    width: 44rem;
     display: flex;
+    justify-content: space-around;
+    
+
+}
+a{
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+button{
+    margin-top: 37px;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid red;
+    background-color: red;
+    border-radius: 2rem;
+    height: 2rem;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: black solid 2px;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+#colorful{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+#tiret{
+    color: red;
+    width: 6rem;
+    border: 2px solid red;
+
+}
+#wonderful{
+    font-size: 5rem;
+    margin: 1px;
 }
