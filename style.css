@@ -45,18 +45,21 @@ a{
     align-items: center;
 }
 button{
-    margin-top: 37px;
     font-size: 21px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1rem solid red;
+    width: 195px;
+    height: 48px;
+    margin-top: 22px;
     background-color: red;
+    border: 1px solid red;
     border-radius: 2rem;
-    height: 2rem;
     color: white;
+    cursor: pointer;
+
 }
-#soule{
+button:hover{
+    background-color: brown;
+}
+#wonder{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,11 +82,12 @@ button{
     font-size: 5rem;
     margin: 1px;
 }
-main{
+#main{
     background-color: darkgrey;
     margin-top: -5rem;
+    height: 63rem;
 }
-#id2Soule{
+#mainLogo{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,7 +98,7 @@ main{
     margin-top: 2rem;
     margin-right: 5rem;
 }
-#CaSoule{
+#phraseLogo{
     font-size: 20px;
     text-align: center;
     margin-right: 186px;
@@ -110,24 +114,59 @@ main{
     flex-direction: column;
     margin-top: 141px;
 }
-#GigaChad{
+#beaute{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
 }
 .imageBg{
-    height: 296px;
+    height: 295px;
     width: 475px;
-    margin-right: 3rem;
-    margin-left: 3rem;
-    margin-top: 4rem;
-    border-radius: 1%;
-
+    margin: auto;
 }
-
-
-
-
+#beauGosse{
+    display: flex;
+   flex-direction: column;
+   margin-right: 2rem;
+   
+}
+#belleGosse{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    
+}
+.h2, .p2{
+    text-align: center;
+}
+.b2{
+    margin: auto;
+}
+#main2{
+    background-image: url(./image/section-bg-img.jpg);
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+#section2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    
+}
+.b3{
+    margin: 0;
+}
+#main3{
+    background-color: darkgrey;
+    margin-top: -5rem;
+    height: 63rem;
+}
 
 
 
