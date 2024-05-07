@@ -21,6 +21,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
+    background-attachment: fixed;
     
 }
 nav{
@@ -37,7 +38,7 @@ nav{
     
 
 }
-a{
+.anav{
     font-size: 21px;
     text-decoration: none;
     color: white;
@@ -149,6 +150,9 @@ button:hover{
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #section2{
     text-align: left;
@@ -166,19 +170,71 @@ button:hover{
     background-color: darkgrey;
     margin-top: -5rem;
     height: 63rem;
+     display: flex;
+    position: relative; 
 }
+#sm3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 220px;
+    left: 420px;
+    width: 350px;
 
-
-
-
-
-
-
-
-
-
-
-
+}
+#idSi{
+    width: 760px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 205px;
+    right: 290px
+}
+#img1{
+    width: 360px;
+    height: 224px;
+}
+#img2{
+    width: 360px;
+    height: 366px;
+}
+#img3{
+    width: 360px;
+    height: 366px;
+}
+#img4{width: 360px;
+    height: 207px;
+}
 footer{
     background-color: black;
+    height: 12rem;
+    margin-top: -17px;
+    margin-bottom: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#secF{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.P{
+    text-align: center;
+    border: 2px solid red;
+    margin: 0px;
+    width: 48rem;
+    height: 2rem;
+    /* position: absolute;
+    top: 60px;
+    left: 10em; */
+   
+
 }
