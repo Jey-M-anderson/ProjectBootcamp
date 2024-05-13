@@ -87,7 +87,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    margin-bottom: 100px;
 }
 #sectionId{
     display: flex;
@@ -128,4 +128,28 @@ main{
 li{
     text-align: left;
     margin-left: -23px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 12rem;
+    margin-top: -17px;
+    margin-bottom: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#secF{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.P{
+    text-align: center;
+    margin: 0px;
+    width: 48rem;
+    height: 2rem;
 }
