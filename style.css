@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: black;
     
 }
 header{
@@ -15,8 +15,8 @@ header{
 }
 .image{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.596),
-        rgba(0, 0, 0, 0.7)),
+        rgba(0, 0, 0, 0.329),
+        rgba(0, 0, 0, 0.295)),
         url(./image/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +68,7 @@ button:hover{
     margin-top: 5rem;
     flex-wrap: wrap;
     margin-bottom: 17rem;
+    color: white;
 }
 #colorful{
     font-size: 2rem;
@@ -84,7 +85,7 @@ button:hover{
     margin: 1px;
 }
 #main{
-    background-color: darkgrey;
+    background-color: rgb(238,238,238);
     margin-top: -5rem;
     height: 63rem;
 }
@@ -115,23 +116,24 @@ button:hover{
     flex-direction: column;
     margin-top: 141px;
 }
-#beaute{
+#human{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.imageBg{
+.imageHuman{
     height: 295px;
     width: 475px;
     margin: auto;
+    box-shadow: 3rem;
 }
-#beauGosse{
+#man{
     display: flex;
    flex-direction: column;
    margin-right: 2rem;
    
 }
-#belleGosse{
+#woman{
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
@@ -228,13 +230,7 @@ footer{
 }
 .P{
     text-align: center;
-    border: 2px solid red;
     margin: 0px;
     width: 48rem;
     height: 2rem;
-    /* position: absolute;
-    top: 60px;
-    left: 10em; */
-   
-
 }

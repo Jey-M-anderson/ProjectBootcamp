@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    
+}
+header{
+   display: flex;
+   flex-direction: column;
+   
+}
+.image{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.26),
+        rgba(0, 0, 0, 0.295)),
+        url(./image/montagnes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    height: 36rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+#idLogo{
+    width: 10rem;;
+}
+#idBascule{
+    width: 44rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.anav{
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+button{
+    font-size: 21px;
+    width: 195px;
+    height: 48px;
+    margin-top: 22px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: brown;
+}
+#wonder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    margin-bottom: 17rem;
+    color: white;
+    position: relative; 
+}
+
+#wonderful{
+    font-size: 5rem;
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiret{
+    color: red;
+    width: 6rem;
+    border: 2px solid red;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#sectionId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.divImg{
+    width: 1000px;
+    height: 400px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.imgSection{
+    width: 450px;
+    height: 250px
+}
+.secDiv{
+    margin: 0px;
+    text-align: center;
+}
+#secListe{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.divListe{
+    width: 500px;
+    margin-top: 15rem;
+    margin-right: -10px;
+    margin-left: 40px;
+}
+li{
+    text-align: left;
+    margin-left: -23px;
+}
