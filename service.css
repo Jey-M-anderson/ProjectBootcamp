@@ -12,9 +12,10 @@ header{
 }
 .image{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.411),
-        rgba(0, 0, 0, 0.308)),
-        url(./image/paysage.jpg);
+        rgba(0, 0, 0, 0.26),
+        rgba(0, 0, 0, 0.295)),
+        url(./image/montagnes.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
@@ -76,32 +77,57 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
-#redbag{
-    width: 500px;
-    height: 345px;
+.tiret{
+    color: red;
+    width: 6rem;
+    border: 2px solid red;
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
-#main{
-    width: 1100px;
-    height: 800px;
+#sectionId{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 70px;
 }
-.section2{
-    width: 400px;
-    height: 300px;
+.divImg{
+    width: 1000px;
+    height: 400px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
-.tiret{
-    color: red;
-    width: 6rem;
-    border: 2px solid red;
+.imgSection{
+    width: 450px;
+    height: 250px
+}
+.secDiv{
+    margin: 0px;
+    text-align: center;
+}
+#secListe{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.divListe{
+    width: 500px;
+    margin-top: 15rem;
+    margin-right: -10px;
+    margin-left: 40px;
+}
+li{
+    text-align: left;
+    margin-left: -23px;
 }
 footer{
     background-color: black;
@@ -126,4 +152,8 @@ footer{
     margin: 0px;
     width: 48rem;
     height: 2rem;
+}
+span{
+    color: red;
+    font-size: 20px;
 }
