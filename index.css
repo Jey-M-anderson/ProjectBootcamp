@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import  url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    color: black;  
+    font-family: "Noto-sans" Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;   
 }
 
 header{
+   color: white;
    display: flex;
    flex-direction: column;
-   flex-wrap: wrap; 
 }
 
 .image{
@@ -23,7 +27,6 @@ header{
     margin-bottom: 5rem;
     background-attachment: fixed; 
 }
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -72,10 +75,11 @@ button:hover{
     flex-wrap: wrap;
     margin-bottom: 17rem;
     color: white;
+    
 }
 
 #colorful{
-    font-size: 2rem;
+    font-size: 24px;
     margin-top: 5rem;
 }
 
@@ -86,20 +90,23 @@ button:hover{
 }
 
 #wonderful{
-    font-size: 5rem;
+    font-size: 64px;
     margin: 1px;
 }
 
 #main{
-    background-color: rgb(238,238,238);
+    background-color: #f5f5f5;
     margin-top: -5rem;
     height: 63rem;
+    color: black;
+    font-weight: 100;
 }
 
 #mainLogo{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 #logo2{
@@ -143,13 +150,15 @@ button:hover{
 #man{
     display: flex;
    flex-direction: column;
-   margin-right: 2rem;   
+   margin-right: 2rem;  
+   text-align: center; 
 }
 
 #woman{
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;    
+    margin-left: 2rem; 
+    text-align: center;   
 }
 
 .h2, .p2{
@@ -170,6 +179,7 @@ button:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 #section2{
@@ -177,8 +187,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 200px;
-    right: 200px;    
+    top: 150px;
+    right: 390px;    
 }
 
 .b3{
@@ -186,11 +196,13 @@ button:hover{
 }
 
 #main3{
-    background-color: darkgrey;
+    color: black;
+    background-color: #f5f5f5;
     margin-top: -5rem;
     height: 63rem;
      display: flex;
     position: relative; 
+    
 }
 
 #sm3{
@@ -198,7 +210,7 @@ button:hover{
     flex-direction: column;
     position: absolute;
     top: 220px;
-    left: 420px;
+    left: 390px;
     width: 350px;
 }
 

@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import  url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    color: black;   
+    font-family: "Noto-sans" Arial, Helvetica, sans-serif;
+}
+
+.bold{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;   
 }
 
 header{
@@ -49,8 +55,8 @@ button{
     width: 195px;
     height: 48px;
     margin-top: 22px;
-    background-color: red;
-    border: 1px solid red;
+    background-color: #fb2056;
+    border: 1px solid #fb2056;
     border-radius: 2rem;
     color: white;
     cursor: pointer;
@@ -107,9 +113,9 @@ main{
 }
 
 .tiret{
-    color: red;
+    color: #fb2056;
     width: 6rem;
-    border: 2px solid red;
+    border: 2px solid #fb2056;
 }
 
 footer{
