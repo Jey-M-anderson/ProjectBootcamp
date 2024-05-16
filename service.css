@@ -163,5 +163,99 @@ span{
     color: red;
     width: 5px;
     height: 1px;
+}
+@media (max-width:780px) {
+    body{
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img {
+        width: 100%; 
+        background-position: center;
+        background-size: cover; 
+    } 
+    #idBascule{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    header{}
+    
+}
+
+@media (max-width:480px) {
+     body{
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img {
+        width: 100%; 
+        background-position: center;
+        background-size: cover; 
+    } 
+    nav{
+        flex-direction: row;
+        justify-content: space-between
+    };
+    #idLogo{
+        width: 240px;
+    }
+    #idBascule{
+        display: flex;
+        flex-direction: column;
+        width: 240px;
+    
+    }
+    .anav{
+        justify-content: center;
+
+    }
+
+    #wonderful{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 480px
+    }
+    #sectionId{
+        margin-bottom: 20rem;
+        width: 460px;
+    }
+    .divImg{
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+       margin-bottom: 24rem;
+    }
+    .secDiv{
+        margin-bottom: 1px;
+    }
+    #secListe{
+        flex-direction: column;
+    }
+    .divListe{
+        margin-top: 1rem;
+    }
+    footer{
+        width: 100vh;
+    }
+    .P{
+        width: 460px;
+        height: 50px;
+        
+
+    }
+    
 
 }

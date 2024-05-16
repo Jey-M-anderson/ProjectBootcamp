@@ -12,6 +12,7 @@ body{
 }
 h2{
     font-size: 34px;
+
 }
 header{
    display: flex;
@@ -181,20 +182,7 @@ footer{
     width: 48rem;
     height: 2rem;
 }
-/* @media (max-width:1024px) {
-     {
-        width: 30%;
-    } 
-
-} */
-/* 
-@media (max-width:768px) {
-    .img {
-        width: 40%;
-    }
-}
-*/
-/* @media (max-width:480px) {
+@media (max-width:780px) {
     body{
         width: 100vh;
         display: flex;
@@ -202,36 +190,74 @@ footer{
         justify-content: center;
         flex-direction: column;
     }
-    header{
+    .img {
+        width: 100%; 
+        background-position: center;
+        background-size: cover; 
+        
+    } 
+    #idBascule{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    
     }
-    nav{
-        background-color: white;
-    }
-    .anav{
-        color: black;
-    }
-    #idBascule {
+    header{}
+    
+}
+
+@media (max-width:480px) {
+     body{
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     .img {
-        /* width: 100%; */
-        /* background-position: center;
-        background-size: cover; 
+        width: 480px; 
+        background-position: center;
+        background-size: cover;
+        background-attachment: initial; 
     } 
-    #idLogo{
-        background-color: black;
+    .image{
+        width: 480px; 
+        background-position: center;
+        background-size: cover;
+        background-attachment: initial; 
     }
-     main{
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 480px;
+    }
+    header{
+        width: 480px;
+    }
+    #idLogo{
+        width: 240px;
+    }
+    #idBascule{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        width: 240px;
+    
     }
-     .formDiv{
+    .anav{
+        justify-content: cnter;
+
+    }
+
+    #wonder{
+       margin-left: 115px;
+       margin-bottom: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-     }
-    
-}  */ */
+        font-size: 34px;
+    }
+    #colorful{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
