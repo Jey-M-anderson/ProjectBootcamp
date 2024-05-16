@@ -53,7 +53,7 @@ nav{
     align-items: center;
 }
 
-button{
+.redButton{
     font-size: 21px;
     width: 195px;
     height: 48px;
@@ -181,3 +181,57 @@ footer{
     width: 48rem;
     height: 2rem;
 }
+/* @media (max-width:1024px) {
+     {
+        width: 30%;
+    } 
+
+} */
+/* 
+@media (max-width:768px) {
+    .img {
+        width: 40%;
+    }
+}
+*/
+@media (max-width:480px) {
+    body{
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    nav{
+        background-color: white;
+    }
+    .anav{
+        color: black;
+    }
+    #idBascule {
+        flex-direction: column;
+    }
+    .img {
+        /* width: 100%; */
+        background-position: center;
+        background-size: cover; 
+    } 
+    #idLogo{
+        background-color: black;
+    }
+     main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     .formDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    
+} 
