@@ -194,7 +194,7 @@ footer{
     }
 }
 */
-@media (max-width:480px) {
+/* @media (max-width:480px) {
     body{
         width: 100vh;
         display: flex;
@@ -217,7 +217,7 @@ footer{
     }
     .img {
         /* width: 100%; */
-        background-position: center;
+        /* background-position: center;
         background-size: cover; 
     } 
     #idLogo{
@@ -234,4 +234,4 @@ footer{
         align-items: center;
      }
     
-} 
+}  */ */
