@@ -107,6 +107,7 @@ main{
     flex-direction: row;
     position: relative;
     height: 50rem;
+  
 }
 
 .formDiv{
@@ -126,6 +127,9 @@ form{
     position: absolute;
     left: 500px;
     top: 125px;
+}
+input{
+    margin-bottom: 15px;
 }
 
 .contactDiv{
