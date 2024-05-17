@@ -228,6 +228,9 @@ footer{
         position: relative ;
         margin-bottom: 265rem;
     }
+    .sportP {
+        width: 460px;
+    }
 
     .waterImg{
         display: flex;
@@ -275,103 +278,15 @@ footer{
 @media (max-width:480px) {
      body{
         width: 480px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
     }
-    .img {
-        width: 480px; 
-        background-position: center;
-        background-size: cover;
-        background-attachment: initial; 
-    } 
-    .image{
-        width: 480px; 
-        background-position: center;
-        background-size: cover;
-        background-attachment: initial; 
+    .image {
+        width: 480px;
     }
     nav{
-        flex-direction: row;
-        justify-content: space-around;
         width: 480px;
     }
-    header{
-        width: 480px;
-    }
-    #idLogo{
-        width: 240px;
-    }
-    #idBascule{
-        display: flex;
-        flex-direction: column;
-        width: 240px;
-    
-    }
-    .anav{
-        justify-content: center;
-
-    }
-
     #wonder{
        margin-left: 115px;
-       margin-bottom: 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 34px;
-    }
-    #colorful{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    main{
-        position: relative ;
-        margin-bottom: 265rem;
-    }
-
-    .waterImg{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .winterImg{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .forestImg{
-        display: flex;
-        flex-direction: column;
-
-    }
-    #waterDiv{
-        position: absolute;
-        top: -1rem;
-        right: -57rem;
-
-    }
-    #winterDiv{
-        position: absolute;
-        top: 78rem;
-        right: -57rem;
-
-    }
-    #forestDiv{
-        position: absolute;
-        top: 167rem;
-        left: -13rem;
-    }
-    footer{
-        width: 100vh;
-    }
-    .P{
-        width: 460px;
-        height: 50px;
-        
-
     }
 }
 
